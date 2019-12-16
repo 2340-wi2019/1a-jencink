@@ -1,4 +1,17 @@
+/*
+Jen Cink
+	 assignment2.htm
+	 INFO2340.WW
+	 Thoendel
+	 12/15/19
+*/
+
+//I really struggled with this assignment. I also accidentally merged it onto my master first on GitHub. So this comment is to resubmit that pull request.
+
+//Array to hold inputs
 var madlib = [];
+
+//Filling the array with user inputs
 madlib[0] = prompt("Please enter a female name (1 of 2)");
 madlib[1] = prompt("Please enter a female name.(2 of 2)");
 madlib[2] = prompt("Please enter a male name.");
@@ -12,6 +25,7 @@ madlib[9] = prompt("Please enter a noun.(4 of 5)");
 madlib[10] = prompt("Please enter a noun(5 of 5)");
 madlib[11] = prompt("Please enter a color.");
 
+//Using the array to fill the span elements. 
 $(document).ready(function($){
 	$('#femOne0').html(madlib[0]);
 	$('#femOne1').html(madlib[0]);
